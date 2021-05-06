@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Cambios.Modelos.Serviços
+﻿namespace Cambios.Modelos.Serviços
 {
+    using System.Windows.Forms;
     class DialogService
     {
-
+        public void ShowMessage(string title, string message)
+        {
+            MessageBox.Show(message, title);
+        }
     }
 }
